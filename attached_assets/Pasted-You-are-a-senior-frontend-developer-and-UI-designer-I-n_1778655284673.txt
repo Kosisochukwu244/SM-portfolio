@@ -1,0 +1,34 @@
+You are a senior frontend developer and UI designer. I need you to build a complete, production-ready portfolio website for a social media manager using Next.js + Tailwind CSS (so it can be deployed directly to Vercel or Netlify with zero config).
+Design Direction (see attached PDF for reference):
+Pull the visual language from the attached portfolio PDF:
+
+Warm neutral color palette: creamy whites, warm taupes (#B5A898, #D4C9BC), deep charcoal text (#1C1C1C), off-white backgrounds (#FAF8F5)
+Elegant serif headings (use Playfair Display from Google Fonts) paired with clean sans-serif body text (Inter)
+Generous whitespace, editorial layout with asymmetric image/text splits
+Subtle animations on scroll (fade-in, slide-up) using Framer Motion
+
+Sections to build (in order):
+
+Hero — Full-screen split layout. Left: name, title ("Social Media Manager"), a one-liner tagline, and a CTA button ("View My Work"). Right: a stylized image placeholder with a warm taupe overlay.
+About — Two-column layout. Left: a portrait image placeholder. Right: a short bio, location, and a list of core skills (Content Strategy, Brand Voice, Analytics, Community Management, Paid Ads).
+Services — Clean card grid (3 cards): Content Creation, Growth Strategy, Analytics & Reporting. Each card has an icon, title, and 2-line description.
+Portfolio / Work — Masonry or editorial grid showcasing 4–6 mock case studies. Each card shows: platform (Instagram / TikTok / LinkedIn), client name, result metric (e.g. "+240% engagement"), and a muted image placeholder. Clicking opens a modal with more detail.
+Brands / Clients — Minimal logo strip with placeholder brand names in styled text.
+Testimonials — Full-width warm taupe background section with 2 pull-quote testimonials and client names.
+Contact — Clean form (Name, Email, Message, Send button) + email and social media links (Instagram, LinkedIn, Twitter/X).
+Footer — Minimal: name, nav links, copyright.
+
+Technical requirements:
+
+Framework: Next.js 14 (App Router)
+Styling: Tailwind CSS
+Animations: Framer Motion
+Icons: Lucide React
+Fonts: Google Fonts (Playfair Display + Inter) via next/font
+All sections in separate components under /components
+vercel.json or netlify.toml included for instant deployment
+Mobile-first, fully responsive
+No external backend needed — contact form can use Resend or just a mailto fallback
+Clean folder structure, commented code
+
+Use placeholder text and bg-[#D4C9BC] colored divs where real images would go, sized realistically. Make the site feel like a real, hirable social media manager's portfolio — not a generic template. The tone is confident, modern, and editorial.
