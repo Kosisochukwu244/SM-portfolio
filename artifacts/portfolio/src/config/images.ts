@@ -1,18 +1,18 @@
 export const IMAGES = {
-  hero: "/assets/images/hero.jpg",
-  about: "/assets/images/about.jpg",
+  hero: "assets\\images\\uhm.png",
+  about: "assets\\images\\Kosisochukwu.jpg",
   portfolio: {
-    project1: "/assets/images/portfolio-1.jpg",
-    project2: "/assets/images/portfolio-2.jpg",
-    project3: "/assets/images/portfolio-3.jpg",
-    project4: "/assets/images/portfolio-4.jpg",
+    project1: "assets\\images\\jence2.jpg",
+    project2: "assets\\images\\brij2.jpg",
+    project3: "assets\\images\\sui3.jpg",
+    project4: "assets\\images\\graso.jpg",
   },
   team: {
-    member1: "/assets/images/team-1.jpg",
+    member1: "assets\\images\\jence3.jpg",
   },
   moodboard: [
-    "/assets/images/mood-1.jpg",
-    "/assets/images/mood-2.jpg",
-    "/assets/images/mood-3.jpg",
+    "assets\\images\\jence3.jpg",
+    "assets\\images\\mood-2.jpg",
+    "assets\\images\\mood-3.jpg",
   ],
 };

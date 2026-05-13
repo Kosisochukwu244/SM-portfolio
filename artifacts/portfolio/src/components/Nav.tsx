@@ -31,7 +31,7 @@ export default function Nav() {
       }`}
     >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="font-serif text-xl tracking-wide font-medium">Maya Chen.</a>
+        <a href="#" className="font-serif text-xl tracking-wide font-medium">Kosi Moronu.</a>
         
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8">

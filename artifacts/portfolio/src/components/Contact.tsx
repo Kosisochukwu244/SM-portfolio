@@ -77,7 +77,7 @@ export default function Contact() {
           className="mt-24 text-center border-t border-border pt-12"
         >
           <a href="mailto:hello@mayachen.co" className="text-xl md:text-2xl font-serif hover:text-primary transition-colors">
-            hello@mayachen.co
+            peterrexysmith@gmail.com
           </a>
           <div className="flex justify-center gap-6 mt-8">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors"><Instagram size={24} strokeWidth={1.5} /></a>

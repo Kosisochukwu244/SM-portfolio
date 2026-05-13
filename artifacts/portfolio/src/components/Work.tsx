@@ -7,8 +7,8 @@ import { IMAGES } from "@/config/images";
 const works = [
   {
     id: 1,
-    client: "Lumina Skincare",
-    platform: "Instagram",
+    client: "JENCE",
+    platform: "X, LinkedIn and Facebook",
     metric: "+240% engagement",
     goal: "Revitalize visual identity and build an engaged community prior to a major product launch.",
     result: "Achieved a 240% increase in average engagement rate and grew following by 15k within 3 months.",
@@ -16,8 +16,8 @@ const works = [
   },
   {
     id: 2,
-    client: "Oat & Co.",
-    platform: "TikTok",
+    client: "BRIJ",
+    platform: "X, LinkedIn, Instagram and TikTok",
     metric: "3.2M organic views",
     goal: "Establish brand presence on TikTok and reach Gen Z consumers.",
     result: "Generated over 3.2M organic views across 5 viral videos in the first month.",
@@ -25,8 +25,8 @@ const works = [
   },
   {
     id: 3,
-    client: "Vertex FinTech",
-    platform: "LinkedIn",
+    client: "DenLabs",
+    platform: "LinkedIn, X",
     metric: "2x lead generation",
     goal: "Position the founders as thought leaders and generate B2B leads.",
     result: "Doubled inbound leads from social channels and increased profile views by 400%.",
@@ -34,8 +34,8 @@ const works = [
   },
   {
     id: 4,
-    client: "Aura Athletics",
-    platform: "Instagram",
+    client: "SuiDen",
+    platform: "Instagram, X",
     metric: "45% conversion rate",
     goal: "Drive direct sales through social media for the summer collection.",
     result: "Achieved a 45% conversion rate from Instagram Shop and Stories.",
@@ -55,7 +55,7 @@ export default function Work() {
           viewport={{ once: true }}
           className="mb-16 md:mb-24 flex justify-between items-end"
         >
-          <h2 className="text-4xl md:text-5xl font-serif text-foreground">Selected Work</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-foreground">Work Experience</h2>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">

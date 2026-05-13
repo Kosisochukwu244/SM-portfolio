@@ -32,12 +32,12 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <h2 className="text-4xl md:text-5xl font-serif mb-8 text-foreground">
-            Hi, I'm Maya Chen. I help brands find their voice and build communities that actually care.
+            Hi, I'm Kosi Moronu. I help brands find their voice and build communities that actually care.
           </h2>
           
           <div className="flex items-center gap-2 text-muted-foreground mb-10 text-sm uppercase tracking-widest">
             <MapPin size={16} />
-            <span>San Francisco, CA</span>
+            <span>Nigeria</span>
           </div>
 
           <div>
