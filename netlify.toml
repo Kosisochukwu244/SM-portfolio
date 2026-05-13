@@ -1,7 +1,7 @@
 [build]
   base = "artifacts/portfolio"
   command = "pnpm install --no-frozen-lockfile && pnpm run build"
-  publish = "dist"
+  publish = "artifacts/portfolio/dist"
 
 [build.environment]
   NODE_VERSION = "22"
