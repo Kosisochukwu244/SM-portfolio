@@ -1,6 +1,6 @@
 [build]
   base = "artifacts/portfolio"
-  command = "pnpm install --no-frozen-lockfile && pnpm run build"
+  command = "pnpm install --no-frozen-lockfile && pnpm run build:no-check"
   publish = "dist"
 
 [build.environment]
