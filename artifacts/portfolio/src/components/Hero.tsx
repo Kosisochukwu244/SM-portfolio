@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import PlaceholderImage from "@/components/ui/PlaceholderImage";
+import { IMAGES } from "@/config/images";
 
 export default function Hero() {
   const containerVariants = {
@@ -58,7 +60,7 @@ export default function Hero() {
         >
           {/* Subtle editorial framing */}
           <div className="absolute -inset-4 border border-primary/20 pointer-events-none" />
-          <div className="absolute inset-0 bg-secondary" />
+          <PlaceholderImage src={IMAGES.hero} alt="Hero portrait" className="absolute inset-0 w-full h-full" />
         </motion.div>
       </div>
     </section>

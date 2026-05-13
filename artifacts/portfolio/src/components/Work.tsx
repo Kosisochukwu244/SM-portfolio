@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import PlaceholderImage from "@/components/ui/PlaceholderImage";
+import { IMAGES } from "@/config/images";
 
 const works = [
   {
@@ -67,8 +69,13 @@ export default function Work() {
               onClick={() => setSelectedWork(work)}
               className="group cursor-pointer"
             >
-              <div className="aspect-[4/3] bg-secondary mb-6 relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="aspect-[4/3] mb-6 relative overflow-hidden">
+                <PlaceholderImage
+                  src={IMAGES.portfolio[`project${work.id}` as keyof typeof IMAGES.portfolio]}
+                  alt={`${work.client} case study`}
+                  className="absolute inset-0 w-full h-full"
+                />
+                <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
               </div>
               <div className="flex justify-between items-start">
                 <div>

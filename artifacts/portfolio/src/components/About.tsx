@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
+import PlaceholderImage from "@/components/ui/PlaceholderImage";
+import { IMAGES } from "@/config/images";
 
 export default function About() {
   const skills = [
@@ -18,8 +20,10 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="aspect-square bg-primary w-full max-w-md mx-auto"
-        />
+          className="aspect-square w-full max-w-md mx-auto"
+        >
+          <PlaceholderImage src={IMAGES.about} alt="About portrait" className="w-full h-full" />
+        </motion.div>
         
         <motion.div
           initial={{ opacity: 0, y: 40 }}
