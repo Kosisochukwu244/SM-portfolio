@@ -7,3 +7,8 @@
   NODE_VERSION = "22"
   PNPM_VERSION = "10"
   npm_config_engine_strict = "false"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
