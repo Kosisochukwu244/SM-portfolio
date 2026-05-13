@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Maya completely transformed our online presence. She doesn't just post content; she builds communities. Our engagement has never been higher.",
-      author: "Sarah Jenkins",
-      company: "Founder, Nova Co.",
+      quote: "Kosi completely transformed our online presence. She doesn't just post content; she builds communities. Our engagement has never been higher.",
+      author: "Joel or",
+      company: "Founder, Jence",
     },
     {
-      quote: "The strategic depth Maya brings is unmatched. She translated our complex product into stories our audience actually wanted to hear and share.",
+      quote: "The strategic depth Kosi brings is unmatched. She translated our complex product into stories our audience actually wanted to hear and share.",
       author: "David Altar",
-      company: "CMO, Atlas Brands",
+      company: "CMO, DenLabs",
     },
   ];
 
